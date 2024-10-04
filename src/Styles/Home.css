@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.home-img-box{
+    /* border-right:solid 30px #a84e32;
+    border-top:solid 30px #a84e32; */
+    border:solid 6px #a84e32;
+    /* border-radius: 20px; */
+    margin-left: 60px;
+    position: relative;
+    z-index: 1;
+    height:400px;
+    width:300px;
+    background-color: #a84e32;
+   
+    
+}
+.home-img-box2{
+    margin-top: 10px;
+    /* border-right:solid 15px #a84e32;
+    border-top:solid 15px #a84e32; */
+    margin-left: 40px;
+    border:solid 8px aliceblue;
+        /* border-radius: 20px; */
+    /* background-color: #a84e32; */
+    position: relative;
+    z-index: 1;
+    height:390px;
+    width:290px;
+    margin-top: 30px;
+    background-color: #a84e32;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+.home-img{
+    /* height:220px;
+    width:520px; */
+    z-index: 2;
+    /* border-radius: 40px; */
+    /* margin-left: 25px; */
+    /* margin-bottom: 100px; */
+    position: absolute;
+    /* padding-right: 30px; */
+    /* left:10px;
+    top: -100px; */
+    /* border:solid 2px #a84e32; */
+    /* border: solid 6px #a84e32;
+    object-fit:fill; */
+    /* height:390px;
+    width:290px; */
+    /* margin-left:30px; */
+    /* margin-bottom: 30px; */
+    /* background-color: #a84e32; */
+    object-fit: cover;
+    margin-top: 10px;
+}
+.home-name-col{
+    display: flex; 
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-name{
+    color: #a84e32;
+    font-family: "Josefin Sans", sans-serif;
+}
+.home-role{
+    color: #a84e32;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-weight: bold; */
+}
+.home-stack{
+    color: #a84e32;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+.brand-icon{
+    border-radius: 50px;
+    background-color: #a84e32;
+    border: none;
+}
+.home{
+    animation: slideUp 2s ease-out;
+}
+/* Define the keyframes for the animation */
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the elements you want to animate */
+  .animate-up {
+    animation: slideUp 1s ease-out;
+  }
+  
+@media(max-width:768px){
+    .home{
+        display: flex;
+        flex-direction:column-reverse;
+
+    } 
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-img-col{
+       margin-top: 60px;
+       
+    } 
+    .home-img-box{
+        /* border-right:solid 30px #a84e32;
+        border-top:solid 30px #a84e32; */
+        border:solid 4px #a84e32;
+        /* border-radius: 20px; */
+        margin-left: 0px;
+        position: relative;
+        z-index: 1;
+        height:300px;
+        width:200px;
+        background-color: #a84e32;
+    }
+    .home-img-box2{
+        
+        /* border-right:solid 15px #a84e32;
+        border-top:solid 15px #a84e32; */
+        margin-left: 20px;
+        border:solid 5px aliceblue;
+            /* border-radius: 20px; */
+        /* background-color: #a84e32; */
+        position: relative;
+        z-index: 1;
+        height:290px;
+        width:190px;
+        margin-top: 20px;
+        background-color: #a84e32;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    
+    }
+    .home-img{
+        /* height:220px;
+        width:520px; */
+        z-index: 2;
+        /* border-radius: 40px; */
+        /* margin-left: 25px; */
+        /* margin-bottom: 100px; */
+        position: absolute;
+        /* padding-right: 30px; */
+        /* left:10px;
+        top: -100px; */
+        /* border:solid 2px #a84e32; */
+        /* border: solid 6px #a84e32;
+        object-fit:fill; */
+        /* height:390px;
+        width:290px; */
+        /* margin-left:30px; */
+        /* margin-bottom: 30px; */
+        /* background-color: #a84e32; */
+        object-fit: cover;
+        margin-top: 10px;
+    }
+    .home-name-col{
+        margin-top: 30px;
+    }
+    
+    
+}
